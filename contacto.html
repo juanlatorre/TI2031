@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TI2031</title>
+  <link href="css/reset.css" rel="stylesheet">
+  <link href="css/index.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <header id="header" class="white-text bg-purple flex-row align-center justify-around">
+    <img src=" images/logo.svg" id="logo" alt="Logo">
+
+    <nav>
+      <ul id="nav" class="flex-row align-center">
+        <li class="nav-item"><a href="/index.html" class="white-text no-decoration font-lg">Inicio</a></li>
+        <li class="nav-item"><a href="/detalles.html" class="white-text no-decoration font-lg">Detalles</a></li>
+        <li class="nav-item"><a href="/imagenes.html" class="white-text no-decoration font-lg">Imagenes</a></li>
+        <li class="nav-item"><a href="/contacto.html" class="white-text no-decoration font-lg">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <div class="flex-row mt-lg">
+      <div class="flex-column align-center flex-1">
+        <form action="#" id="contact">
+          <div class="full flex-column mb-1">
+            <label for="firstName">Nombre</label>
+            <input type="text" id="firstName" name="firstName">
+          </div>
+
+          <div class="full flex-column mb-1">
+            <label for="lastName">Apellido</label>
+            <input type="text" id="lastName" name="lastName">
+          </div>
+
+          <div class="full flex-column mb-1">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email">
+          </div>
+
+          <div class="full flex-column mb-1">
+            <label for="message">Mensaje</label>
+            <textarea name="message" id="message" cols="30" rows="3"></textarea>
+          </div>
+
+          <div class="full flex-column mb-1">
+            <input type="submit" value="Enviar">
+          </div>
+        </form>
+      </div>
+    </div>
+  </main>
+
+  <footer id="footer" class="white-text bg-purple flex-column align-center justify-center">
+    <p>PS2 Frontend - Juan Latorre - 2022</p>
+    <p>juan.latorre15@inacapmail.cl</p>
+  </footer>
+
+</body>
+
+</html>

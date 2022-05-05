@@ -1,0 +1,195 @@
+#header {
+  width: 100vw;
+  height: 90px;
+}
+
+#logo {
+  width: 180px;
+  max-height: 90px;
+  height: auto;
+}
+
+.white-text {
+  color: white;
+}
+
+.bg-purple {
+  background: #786fa6;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+
+.mr-1 {
+  margin-right: 1em;
+}
+
+.gallery-image {
+  object-fit: cover;
+  width: 250px;
+}
+
+.nav-item:not(:last-child) {
+  margin-right: 1em;
+}
+
+.nav-item:hover {
+  opacity: 0.8;
+}
+
+.no-decoration {
+  text-decoration: none;
+}
+
+.font-lg {
+  font-size: 1.2rem;
+}
+
+.mt-lg {
+  margin-top: 3em;
+}
+
+.mt-md {
+  margin-top: 1.5em;
+}
+
+.container {
+  padding-right: 4em;
+  padding-left: 4em;
+}
+
+.container-big {
+  padding-right: 3em;
+  padding-left: 3em;
+}
+
+.align-self {
+  align-self: center;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.rounded {
+  clip-path: circle();
+  object-fit: cover;
+}
+
+.zoom-on-hover {
+  transition: transform 0.5s;
+}
+
+.zoom-on-hover:hover {
+  transform: scale(1.1);
+  outline: none;
+}
+
+.max-height-3 {
+  height: 250px;
+}
+
+.max-height-2 {
+  height: 200px;
+}
+
+.max-height-1 {
+  height: 100px;
+}
+
+.cover {
+  object-fit: cover;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+  height: 90px;
+}
+
+#contact {
+  display: flex;
+  flex-direction: column;
+}
+
+.mb-1 {
+  margin-bottom: 1em;
+}
+
+.full {
+  width: 100%;
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+select {
+  width: 100%;
+  padding: 9px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  width: 100%;
+  background-color: #786fa6;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #574b90;
+}
+
+table {
+  border-collapse: collapse;
+  text-align: left;
+  width: 60%;
+}
+table tr {
+  background: white;
+  border-bottom: 1px solid;
+}
+table th,
+table td {
+  padding: 10px 20px;
+}
+table td span {
+  background: #eee;
+  color: dimgrey;
+  display: none;
+  font-size: 10px;
+  font-weight: bold;
+  padding: 5px;
+  position: absolute;
+  text-transform: uppercase;
+  top: 0;
+  left: 0;
+}
